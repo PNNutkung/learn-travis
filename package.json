@@ -1,0 +1,22 @@
+{
+  "name": "learn-travis-pnnutkung",
+  "version": "0.0.1",
+  "description": "Simple Travis-CI check for JSHint (Code Linting).",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PNNutkung/learn-travis.git"
+  },
+  "author": "PNNutkung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PNNutkung/learn-travis/issues"
+  },
+  "homepage": "https://github.com/PNNutkung/learn-travis#readme",
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  }
+}
